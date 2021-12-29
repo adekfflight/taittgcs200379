@@ -1,0 +1,103 @@
+ .box-size{
+    box-sizing: border-box;
+}
+
+/*.container {
+    background-image: url(https://th.bing.com/th/id/OIP.uu0zhmQQAg-whE8j8G4EVAHaDt?w=326&h=175&c=7&r=0&o=5&pid=1.7);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border: 1px solid orange;
+    background-color: bisque;
+
+    width: 50px;
+    height: 50px;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+    float: left;
+}*/
+
+.container:first-child {
+    margin-right: 0;
+}
+
+.block {
+    color: white;
+    background-color: green;
+    border-radius: 2px;
+    height: 100%;
+    width: 50%;
+
+    text-align: center;
+
+    padding-top: 5px;
+
+    overflow: auto;
+
+    opacity: 50%;
+     float: left;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: red;
+}
+
+
+.navbar li {
+   float: none;
+    border-right: 1px solid white;
+}
+
+
+/*.navbar li:last-child {
+    border-right: none;
+}*/
+
+
+.navbar li a {
+    height: 40px;
+    line-height: 30px;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.navbar li a:hover {
+    background-color: wheat;
+    color: black;
+}
+/*
+.active {
+    background-color: wheat;
+}
+*/
+.login{
+    padding-left: 40%;
+    margin-left:  14px;  
+}
+.homepage{
+    color:brown;
+
+}
+
+.menu{
+    
+    justify-content: flex-end;
+}
+.position{
+    float: left
+}
